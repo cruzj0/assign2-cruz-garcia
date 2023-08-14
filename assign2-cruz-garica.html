@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<style>
+		*{
+
+		}
+		.list, .header, .list td{
+			border: 1px solid #ddd;
+		}
+		.list tr:nth-child(even) {
+			background-color: #D6EEEE;
+		}
+	</style>
+</head>
+<body>
+	<h1>Student Management Form</h1>
+	
+	<table class="list">	<!-- Table -->
+		<tr class="header"> <!-- Header -->
+			<th>ID</th>
+			<th>Student Number</th>
+			<th>Name</th>
+			<th>Address</th>
+			<th>Phone Number</th>
+			<th>Year of Entry</th>
+			<th>Units Enrolled</th>
+		</tr>
+		<tr> <!-- Student 1 -->
+			<td>1</td>
+			<td>279</td>
+			<td>Federico Giallo</td>
+			<td>Rome, Italy</td>
+			<td>1112223333</td>
+			<td>2000</td>
+			<td>24</td>
+		</tr>
+		<tr> <!-- Student 2 -->
+			<td>2</td>
+			<td>4080</td>
+			<td>Lin Yühsia</td>
+			<td>Kowloon, Hong Kong</td>
+			<td>4445556666</td>
+			<td>2008</td>
+			<td>21</td>
+		</tr>
+		<tr> <!-- Student 3 -->
+			<td>3</td>
+			<td>4042</td>
+			<td>Jordi Fontanarossa</td>
+			<td>Madrid, Spain</td>
+			<td>7778889999</td>
+			<td>2004</td>
+			<td>23</tr>
+		</tr>
+		<tr> <!-- Student 4 -->
+			<td>4</td>
+			<td>222</td>
+			<td>Fiona Young</td>
+			<td>Edinburgh, Scotland</td>
+			<td>1234567890</td>
+			<td>2002</td>
+			<td>20</td>
+		</tr>
+		<tr> <!-- Student 5 -->
+			<td>5</td>
+			<td>180</td>
+			<td>Adele Naumann</td>
+			<td>Meissen, Germany</td>
+			<td>0987654321</td>
+			<td>2005</td>
+			<td>23</td>
+		</tr>
+		<tr> <!-- Student 6 -->
+			<td>6</td>
+			<td>1</td>
+			<td>Ada Church</td>
+			<td>London, England</td>
+			<td>1002003000</td>
+			<td>2001</td>
+			<td>27</td>
+		</tr>
+		<tr> <!-- Student 7 -->
+			<td>7</td>
+			<td>472</td>
+			<td>Elliot Glover</td>
+			<td>Washington D.C., United States</td>
+			<td>4005006000</td>
+			<td>2004</td>
+			<td>29</td>
+		</tr>
+		<tr> <!-- Student 8 -->
+			<td>8</td>
+			<td>4055</td>
+			<td>Avdotya Nikolayevna Ivanova</td>
+			<td>Saint Petersburg, Russia</td>
+			<td>7008009000</td>
+			<td>2006</td>
+			<td>21</td>
+		</tr>
+		<tr> <!-- Student 9 -->
+			<td>9</td>
+			<td>17</td>
+			<td>Viviana Droste</td>
+			<td>Kazimierz, Poland</td>
+			<td>0010020003</td>
+			<td>2003</td>
+			<td>20</td>
+		</tr>
+		<tr> <!-- Student 10 -->
+			<td>10</td>
+			<td>325</td>
+			<td>Bison Pides</td>
+			<td>Athens, Greece</td>
+			<td>0040050006</td>
+			<td>2007</td>
+			<td>22</td>
+		</tr>
+	</table>
+	
+	<br><br><br><br><br> <!-- Spacing -->
+	
+	<table class="input">
+		<form action=""> <!-- Form -->
+			<tr>
+				<th>Add New Student<br></th>
+			</tr>
+			<tr>
+				<td><label for="id">ID:</label></td>
+				<td><input type="text" name="id" value="11" readonly></td>
+			</tr>
+			<tr>
+				<td><label for="stdn">Student Number:</label></td>
+				<td><input type="text" name="stdn"></td>
+			</tr>
+			<tr>
+				<td><label for="name">Name:</label></td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td><label for="add">Address:</label></td>
+				<td><input type="text" name="add"><br></td>
+			</tr>
+			<tr>
+				<td><label for="phn">Phone Number:</label></td>
+				<td><input type="number" name="phn"><br></td>
+			</tr>
+			<tr>
+				<td><label for="yr">Year of Entry:</label></td>
+				<td><input type="number" name="yr"><br></td>
+			</tr>
+			<tr>
+				<td><label for="unit">Units Enrolled:</label></td>
+				<td><input type="number" name="unit"><br></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Save" style="margin-right: 45%"><input type="reset" value="Clear"></td>
+			</tr>
+		</form>
+	</table>
+</body>
